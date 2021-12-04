@@ -5,6 +5,7 @@ val targetJdk = JavaVersion.VERSION_17
 
 plugins {
     kotlin("jvm") version "1.6.0"
+    kotlin("plugin.serialization") version "1.6.0"
 }
 
 tasks.named<Wrapper>("wrapper") {
@@ -13,6 +14,7 @@ tasks.named<Wrapper>("wrapper") {
 }
 
 dependencies {
+    implementation(KotlinX.serialization.json)
     testImplementation(Testing.kotest.runner.junit5)
     testImplementation(Testing.kotest.property)
 }
