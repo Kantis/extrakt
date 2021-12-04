@@ -1,0 +1,21 @@
+
+org.jetbrains.exposed:exposed*
+              ^^^^^^^
+
+org.slf4j:slf4j*
+    ^^^^^
+
+com.github.kittinunf.fuel:fuel*
+           ^^^^^^^^^.^^^^
+
+software.amazon.awssdk:*
+         ^^^^^^.^^^^^^
+
+com.fasterxml.jackson*:*
+              ^^^^^^^
+
+org.apache.poi:poi*
+    ^^^^^^.^^^
+
+com.sksamuel.hoplite:hoplite-*
+             ^^^^^^^
